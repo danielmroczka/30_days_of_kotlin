@@ -1,5 +1,6 @@
-package com.dm.labs
+package com.dm.labs.service
 
+import com.dm.labs.model.Order
 import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test

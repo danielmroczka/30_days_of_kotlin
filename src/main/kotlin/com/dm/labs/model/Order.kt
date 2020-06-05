@@ -1,4 +1,4 @@
-package com.dm.labs
+package com.dm.labs.model
 
 /**
  * Class represents Order made buy Seller or Buyer

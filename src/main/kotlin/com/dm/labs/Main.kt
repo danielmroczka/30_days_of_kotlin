@@ -1,5 +1,8 @@
 package com.dm.labs
 
+import com.dm.labs.model.Order
+import com.dm.labs.service.OrderService
+
 object Main {
 
     @JvmStatic

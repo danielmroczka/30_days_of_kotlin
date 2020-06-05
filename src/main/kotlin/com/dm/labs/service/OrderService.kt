@@ -1,5 +1,7 @@
-package com.dm.labs
+package com.dm.labs.service
 
+import com.dm.labs.model.Order
+import com.dm.labs.model.Transaction
 import java.util.*
 import kotlin.math.min
 
@@ -91,7 +93,6 @@ internal class OrderService {
     }
 
     private fun removeExpiredOrders(orders: MutableSet<Order>) {
-
         orders.removeIf { o -> o.expiration < System.currentTimeMillis() }
     }
 

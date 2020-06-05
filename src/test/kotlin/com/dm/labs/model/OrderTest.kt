@@ -1,4 +1,4 @@
-package com.dm.labs
+package com.dm.labs.model
 
 import org.junit.Test
 
